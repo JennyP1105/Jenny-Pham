@@ -1,14 +1,14 @@
-function validate()
+function validate() 
 {
-    if( document.getElementByID("fname").value.length == 0) {
-      alert("Please enter your first name!");
+     if( document.getElementById("fname").value.length == 0 ) {
+     alert( "Please enter your first name!" );
     }
 
-    if(document.getElementByID("lname").value.length == 0) {
-      alert("Please enter your last name!");
+    if( document.getElementById("lname").value.length == 0 ) {
+     alert( "Please enter your last name!" );
     }
 
-    if(document.getElementByID("emailAddr").value.length == 0) {
-      alert("Please enter your Email!");
+    if( document.getElementById("emailAddr").value.length == 0 ) {
+     alert( "Please enter your Email!" );
     }
 }
